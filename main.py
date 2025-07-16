@@ -7,6 +7,8 @@ GIF_DIR = "GIF"
 SPLIT_DIR = "Split"
 
 BACKGROUND_COLOR = (0, 0, 0, 0)
+INTERNAL = 100 # milliseconds
+SCALE = 4
 
 # clear directory
 def clear_directory(directory):
@@ -81,7 +83,7 @@ def create_gif_from_split(file_prefix):
     split_images.sort()  # 确保顺序正确
     images = [Image.open(img) for img in split_images]
     gif_path = os.path.join(GIF_DIR, f"{file_prefix}.gif")
-    images[0].save(gif_path, save_all=True, append_images=images[1:], duration=100, transparency=0, loop=0, disposal=2)
+    images[0].save(gif_path, save_all=True, append_images=images[1:], duration=INTERNAL, transparency=0, loop=0, disposal=2)
 
 pngs = []
 # 遍历Atlas目录下的所有png文件
@@ -95,6 +97,6 @@ for png in pngs:
     gif_name = os.path.splitext(png)[-2]
     gif_name = gif_name.split(os.sep)[-1]  # 获取文件名
     
-    split(atlas_path, gif_name, 4)
+    split(atlas_path, gif_name, SCALE)
     create_gif_from_split(gif_name)
 shutil.rmtree(SPLIT_DIR)  # 清空分割目录以便下次使用
