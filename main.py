@@ -8,7 +8,7 @@ SPLIT_DIR = "Split"
 
 BACKGROUND_COLOR = (0, 0, 0, 0)
 INTERNAL = 100 # milliseconds
-SCALE = 4
+SCALE = 2
 
 # clear directory
 def clear_directory(directory):
