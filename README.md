@@ -1,15 +1,15 @@
 # Hajimi_Azami
 
-![](GIF/x2/bustup_asami_laugh.gif)
+![](GIF/x2/bustup_asami_laugh_laugh.gif)
 
-因《都市传说解体中心》的主人公福来蓟非常可爱，特创建此项目
-『都市伝説解体センター』の主人公・福来あざみの可愛さに惹かれて、このリポジトリを作成しました
+因《都市传说解体中心》的主人公福来蓟非常可爱，特创建此项目  
+『都市伝説解体センター』の主人公・福来あざみの可愛さに惹かれて、このリポジトリを作成しました  
 Created this repository due to the adorable protagonist Azami Fukurai from "Urban Myth Dissolution Center"
 
 ## 目录结构 | ディレクトリ構成 | Directory Structure
 
-GIF目录包含预生成的福来蓟动态表情，按不同缩放比例组织
-GIFディレクトリには、事前に生成された福来あざみの動きのあるスタンプが拡大率別に整理されています
+GIF目录包含预生成的福来蓟动态表情，按不同缩放比例组织  
+GIFディレクトリには、事前に生成された福来あざみの動きのあるスタンプが拡大率別に整理されています  
 The GIFs directory contains pre-generated animated stickers of Azami Fukurai organized by different scaling factors
 
 ## 定制表情 | カスタムGIF作成 | Customize GIFs
